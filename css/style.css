@@ -10,7 +10,7 @@
 /* Basic */
 
     body {
-        background: #222222;
+        background: #555152;
     }
 
         body.loading * {
@@ -27,7 +27,7 @@
         }
 
     body, input, select, textarea {
-        color: #555555;
+        color: #555152;
         font-family: 'Open Sans', sans-serif;
         font-size: 12pt;
         font-weight: 300;
@@ -35,7 +35,7 @@
     }
 
     a {
-        color: #82b440;
+        color: #2E2633;
         text-decoration: underline;
     }
 
@@ -156,7 +156,7 @@
         input[type="password"]:focus,
         input[type="email"]:focus,
         textarea:focus {
-            border-color: #82b440;
+            border-color: #2E2633;
         }
 
     input[type="text"],
@@ -361,7 +361,7 @@
             display: inline-block;
             padding-right: 1em;
             font-size: 1.4em;
-            color: #82b440;
+            color: #2E2633;
         }
 
         ul.special-icons p {
@@ -379,7 +379,7 @@
         }
 
             table.default tbody tr {
-                border-bottom: solid 1px #82b440;
+                border-bottom: solid 1px #2E2633;
             }
 
             table.default td {
@@ -393,8 +393,8 @@
             }
 
             table.default thead {
-                background: #555555;
-                color: #fff;
+                background: #555152;
+                color: #DCE9BE;
             }
 
 /* Button */
@@ -411,8 +411,8 @@
         background: none;
         border-radius: none;
         border: 2px solid;
-        border-color: #82b440;
-        color: #82b440;
+        border-color: #2E2633;
+        color: #2E2633;
         cursor: pointer;
         display: inline-block;
         padding: 0.90em 1.2em;
@@ -432,8 +432,8 @@
         input[type="reset"]:hover,
         input[type="button"]:hover,
         .button:hover {
-            background: #82b440;
-            color: white;
+            background: #2E2633;
+            color: #DCE9BE;
         }
 
         input[type="submit"].alt,
@@ -448,8 +448,8 @@
             input[type="reset"].alt:hover,
             input[type="button"].alt:hover,
             .button.alt:hover {
-                background: white;
-                color: #82b440;
+                background: #DCE9BE;
+                color: #2E2633;
             }
 
         input[type="submit"].fit,
@@ -474,12 +474,12 @@
 
         .wrapper.style1 {
             padding: 0em;
-            background: #222222 url(../images/banner.jpg) no-repeat;
+            background: #555152 url(../images/banner.jpg) no-repeat;
             background-size: cover;
         }
 
         .wrapper.style2 {
-            background: #f2f2f2;
+            background: #DCE9BE;
         }
 
             .wrapper.style2 .major {
@@ -515,9 +515,9 @@
 
         .wrapper.style3 {
             padding-bottom: 6em;
-            background: #82b440;
+            background: #2E2633;
             text-align: center;
-            color: white;
+            color: #DCE9BE;
         }
 
             .wrapper.style3 .container {
@@ -534,9 +534,9 @@
         }
 
         .wrapper.style5 {
-            background: #82b440;
+            background: #2E2633;
             text-align: center;
-            color: white;
+            color: #DCE9BE;
         }
 
             .wrapper.style5 .image {
@@ -548,15 +548,15 @@
                 .wrapper.style5 .image img {
                     border-radius: 50%;
                     border: 10px solid;
-                    border-color: white;
+                    border-color: #DCE9BE;
                 }
 
 /* Header */
 
     #header {
-        color: white;
+        color: #99173C;
         height: 4em;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(46,38,51, 0.75);
     }
 
         #header .container {
@@ -623,7 +623,7 @@
                 }
 
                 #nav > ul > li.active a {
-                    color: white;
+                    color: #99173C;
                 }
 
                 #nav > ul > li > ul {
@@ -634,12 +634,12 @@
 
     .dropotron {
         top: 2em;
-        background: rgba(32, 32, 32, 0.75);
+        background: rgba(46,38,51, 0.75);
         border-radius: 4px;
         color: inherit;
         min-width: 12em;
         padding: 1em 0;
-        color: white;
+        color: #99173C;
     }
 
         .dropotron > li {
@@ -667,22 +667,23 @@
 /* Banner */
 
     #banner {
-        padding: 6em 0em 3em 0em;
-        text-align: center;
-        text-transform: uppercase;
-        color: white;
+        padding: 6em 0em 12em 0em;
+        text-align: right;
+/*        text-transform: uppercase;*/
+        color: rgba(243, 134, 48, .75);
     }
 
         #banner .container {
-            padding: 0em 8em;
+            padding: 0em 10em;
         }
 
         #banner h2 {
+            color: rgba(250, 105, 0, .8);
             display: inline-block;
-            padding: 0.50em 0.30em;
-            background: #82b440;
             font-size: 3em;
             font-weight: 400;
+            padding: 0.50em 0.30em;
+            text-align: right;
         }
 
         #banner span, #banner p {
@@ -728,7 +729,7 @@
     #footer {
         padding: 6em 0 2em 0;
         text-align: center;
-        color: white;
+        color: #DCE9BE;
     }
 
         #footer hr {
