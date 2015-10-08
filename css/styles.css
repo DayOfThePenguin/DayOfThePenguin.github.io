@@ -3,6 +3,11 @@
 /* move special fonts to HTML head for better performance */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600');
 
+header {
+    height: 20%;
+    text-align: center;
+}
+
 html,
 body {
   height: 100%;
