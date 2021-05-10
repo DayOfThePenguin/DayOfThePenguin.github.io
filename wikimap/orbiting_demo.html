@@ -13,7 +13,8 @@
           .jsonUrl("./data/Quantum_Mechanics_v_3323_e_5537.json")
           .nodeLabel('id')
           .nodeAutoColorBy('group')
-          .cameraPosition({ z: distance });
+          .cameraPosition({ z: distance })
+          .onNodeClick(node => window.open(`https://en.wikipedia.org/wiki/${node.id}`, '_blank'));
 
       // camera orbit
       let angle = 0;

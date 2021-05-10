@@ -12,6 +12,7 @@
         .jsonUrl("data/Quantum_Mechanics_v_3323_e_5537.json")  
         .nodeLabel('id')
         .nodeAutoColorBy('group')
+        .onNodeClick(node => window.open(`https://en.wikipedia.org/wiki/${node.id}`, '_blank'));
 
   </script>      
 </body>
