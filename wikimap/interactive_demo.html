@@ -3,18 +3,16 @@
   <style> body { margin: 0; } </style>
 
   <script src="//unpkg.com/3d-force-graph"></script>
-</head>
-      
-      <body>
-        <div id="3d-graph"><div style="position: relative;"><div><div class="scene-container" style="position: relative; width: 1848px; height: 950px;"><div class="scene-nav-info">Left-click: rotate, Mouse-wheel/middle-click: zoom, Right-click: pan</div><div class="scene-tooltip" style="top: 39px; left: 1439px; transform: translate(-77.868%, 21px);"></div><canvas style="display: block; width: 1848px; height: 950px;" width="1848" height="950"></canvas></div></div><div class="graph-info-msg"></div></div></div>
-      
-        <script>
-          const Graph = ForceGraph3D()
-            (document.getElementById('3d-graph'))
-              .jsonUrl("data/Quantum_Mechanics_v_3323_e_5537.json")  
-              .nodeLabel('id')
-              .nodeAutoColorBy('group')
+</head>  
+<body>
+  <div id="3d-graph"></div>
+  <script>
+    const Graph = ForceGraph3D()
+      (document.getElementById('3d-graph'))
+        .jsonUrl("data/Quantum_Mechanics_v_3323_e_5537.json")  
+        .nodeLabel('id')
+        .nodeAutoColorBy('group')
 
-        </script>
-      
-  </body></html>
+  </script>      
+</body>
+</html>
